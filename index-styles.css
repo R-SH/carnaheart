@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('images/main-banner.jpg') center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 75%;
+  min-width: 900px;
+  font-family: 'Calibri', sans-serif;
+  font-size: 16px;
+}
+
+.banner {
+  height: 100vh;
+  min-height: 600px;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: green;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-clip: content-box;
+}
+
+.banner-animated-text {
+  width: 100%;
+  height: 200px;
+  color: grey;
+  font-family: 'Calibri', sans-serif;
+  font-size: 96px;
+  position: relative;
+}
+
+.banner-animated-text p {
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  font-size: 96px;
+  text-align: center;
+}
+
+.ecgathome-wave {
+  display: inline;
+  height: 2em;
+  position: absolute;
+  top: -0.3em;
+}
+
+.banner-contact {
+  width: 100%;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.banner-contact-info::after {
+  content: "";
+  padding: 0 0.5em;
+  margin: 0 0.5em;
+  background: url('images/phone-icon.png') center no-repeat;
+  background-size: contain;
+}
+
+.contact-icon {
+  height: 1em;
+}
+
+.banner-bottom {
+  width: 100%;
+  font-size: 24px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.covid-free {
+  text-transform: uppercase;
+}
+
+.carnaheart {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.heart {
+  height: 0.5em;
+  position: relative;
+  bottom: -0.3em;
+}
+
+.scroll-message {
+  color: green;
+  width: 100%;
+  position: fixed;
+  bottom: 8px;
+  text-align: center;
+}
+
+.scroll-icon {
+  display: inline;
+  height: 1em;
+  margin: 0 1em;
+}
+
+main section {
+  min-height: 100vh;
+  margin: 48px;
+  padding: 24px;
+  background-color: rgba(200, 200, 200, 0.5);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #005800;
+  font-size: 48px;
+}
+
+h1 {
+  margin: 20px;
+  color: #d00000;
+  font-size: 60px;
+  text-align: center;
+}
+
+.ecgathome {
+  color: grey;
+  display: inline;
+  font-weight: bold;
+  position: relative;
+  padding-right: 2em;
+  wrap: nowrap;
+}
+
+section p {
+  text-align: center;
+  margin: 16px;
+}
+
+ul li {
+  margin: 16px;
+}
+
+.conditions-apply {
+  align-self: baseline;
+  margin: 16px;
+}
+
+.conditions-apply-item {
+  display: inline;
+  color: black;
+  font-size: 24px;
+}
+
+.symptoms-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.symptoms-list-column {
+  margin: 0 0.7em;
+}
+
+.icon-bar {
+  text-align: center;
+}
+
+.icon-bar-image {
+  height: 100px;
+  margin: 50px;
+}
+
+footer {
+  text-align: right;
+  font-size: 60px;
+}
+
+footer p {
+  margin: 24px;
+}
+
+.carna-logo {
+  color: green;
+}
+
+.carna-logo-image {
+  height: 1em;
+}
+
+.twitter-follow-button {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
